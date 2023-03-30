@@ -3,15 +3,15 @@ import Link from "next/link";
 
 import styles from "./styles.module.css";
 
-const Footer = () => {
-    return (
-        <footer className={styles.footer}>
-
-            <Link href="" target="_blank">
-                zegemenim
-            </Link>
-        </footer>
-    )
+function Footer() {
+  return (
+    <footer className={styles.footer}>
+      Made with ❤️ by&nbsp;
+      <Link href="https://twitter.com/_mehmetpekcan" target="_blank">
+        Mehmet Pekcan
+      </Link>
+    </footer>
+  );
 }
 
-export default Footer;
+export { Footer };
